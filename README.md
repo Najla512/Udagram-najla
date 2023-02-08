@@ -20,6 +20,16 @@ API:http://udagram-api-dev.eba-tqikctfp.us-east-1.elasticbeanstalk.com/
 
 ![Screenshot](./udagram/screenshots/5.png)
 ![Screenshot](./udagram/screenshots/6.png)
+
+## CircleCI
+### This full stack web application is deployed with a CircleCI continuous integration pipeline.
+Pipeline:
+
+-Ability  to run the unit, integration and end-to-end tests for both backend and frontend.
+
+
+![Screenshot](./udagram/screenshots/8.png)
+![Screenshot](./udagram/screenshots/9.png)
 ```
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
 
