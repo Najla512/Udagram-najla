@@ -5,7 +5,7 @@
 
 Najla-udagram is a full stack web application hosted on Amazon Web Services,
 
-UI :http://elasticbeanstalk-us-east-1-280191447059.s3-website-us-east-1.amazonaws.com/
+UI :http://najlaa-udagram.s3-website.us-east-2.amazonaws.com/
 API:http://udagram-api-dev.eba-tqikctfp.us-east-1.elasticbeanstalk.com/
 ## Amazon Web Services
 ### AWS Relational Database Service (RDS)
