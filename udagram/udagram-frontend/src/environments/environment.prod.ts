@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  apiHost: 'http://elasticbeanstalk-us-east-1-280191447059.s3-website-us-east-1.amazonaws.com',
+  apiHost: 'http://localhost:8080/api/v0',
 };
 
 /*
