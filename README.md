@@ -5,21 +5,20 @@
 
 Najla-udagram is a full stack web application hosted on Amazon Web Services,
 
-UI :http://najlaa-udagram.s3-website.us-east-2.amazonaws.com/
-API:http://udagram-api-dev.eba-tqikctfp.us-east-1.elasticbeanstalk.com/
+UI :http://elasticbeanstalk-us-west-2-280191447059.s3-website-us-west-2.amazonaws.com
+API:http://testeb-dev.us-east-1.elasticbeanstalk.com/
 ## Amazon Web Services
 ### AWS Relational Database Service (RDS)
 ![Screenshot](./udagram/screenshots/RDS.png)
 ![Screenshot](./udagram/screenshots/1.png)
 
 ### AWS Simple Storage Service (S3)
-![Screenshot](./udagram/screenshots/2.png)
-![Screenshot](./udagram/screenshots/3.png)
+![Screenshot](./udagram/screenshots/NewS3.png)
+
 
 ### AWS Elastic Beanstalk (EB)
 
-![Screenshot](./udagram/screenshots/5.png)
-![Screenshot](./udagram/screenshots/6.png)
+![Screenshot](./udagram/screenshots/NewEB.png)
 
 ## CircleCI
 ### This full stack web application is deployed with a CircleCI continuous integration pipeline.
