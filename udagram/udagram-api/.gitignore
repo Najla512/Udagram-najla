@@ -37,6 +37,8 @@ UserInterfaceState.xcuserstate
 node_modules
 venv/
 .env
+package-lock.json
+/dist
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
