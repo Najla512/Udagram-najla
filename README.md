@@ -29,6 +29,9 @@ Pipeline:
 
 ![Screenshot](./udagram/screenshots/8.png)
 ![Screenshot](./udagram/screenshots/9.png)
+ env variables
+![Screenshot](./udagram/screenshots/Env.png.png)
+
 ```
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
 
