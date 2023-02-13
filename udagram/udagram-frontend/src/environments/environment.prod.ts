@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  apiHost: 'http://localhost:8080/api/v0',
+  apiHost: 'http://testeb-dev.us-east-1.elasticbeanstalk.com',
 };
 
 /*
