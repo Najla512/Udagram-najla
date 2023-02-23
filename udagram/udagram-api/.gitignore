@@ -19,7 +19,7 @@ npm-debug.log*
 .tmp/
 .versions/
 coverage/
-www/
+#www/
 node_modules/
 tmp/
 temp/
@@ -37,10 +37,6 @@ UserInterfaceState.xcuserstate
 node_modules
 venv/
 .env
-package-lock.json
-/dist
-Elastic Beanstalk Files
-
 # Elastic Beanstalk Files
 # .elasticbeanstalk/*
 # !.elasticbeanstalk/*.cfg.yml
