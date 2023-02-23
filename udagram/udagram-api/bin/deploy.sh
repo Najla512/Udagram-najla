@@ -1,7 +1,7 @@
 eb list -a -v
 
-eb use Najlaudagram-env
+eb use udagram-api-dev
 
 
-eb deploy Najlaudagram-env
-eb setenv PORT=PORT USERNAME=postgres
+eb setenv PORT=3000
+eb deploy udagram-api-dev

@@ -39,8 +39,13 @@ venv/
 .env
 package-lock.json
 /dist
+Elastic Beanstalk Files
+.elasticbeanstalk/*
+.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.elasticbeanstalk/
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-.elasticbeanstalk/

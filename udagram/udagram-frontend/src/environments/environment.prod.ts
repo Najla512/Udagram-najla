@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  apiHost: 'http://najlaudagram-env.eba-ikixg4m3.us-east-2.elasticbeanstalk.com/',
+  apiHost: 'http://udagram-api-dev.eba-xucatyq6.us-east-1.elasticbeanstalk.com/api/v0',
 };
 
 /*
