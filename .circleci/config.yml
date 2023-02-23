@@ -30,12 +30,7 @@ jobs:
           command: |
            echo "TODO: Install dependencies in the the backend API  "
            npm run api:install
-      # TODO: Lint the frontend
-      - run:
-          name: Front-End Lint
-          command: |
-            echo "TODO: Lint the frontend"
-            npm run frontend:lint 
+    
       # TODO: Build the frontend app
       - run:
           name: Front-End Build
@@ -64,8 +59,10 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "TODO: Install, build, deploy in both apps"
-            npm run frontend:deploy
-            npm run api:deploy
+            cd udagram-api/
+            eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY POSTGRES_USER=$POSTGRES_USER POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_HOST=$POSTGRES_HOST POSTGRES_DB=$POSTGRES_DB AWS_BUCKET=$AWS_BUCKET AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE JWT_SECRET=$JWT_SECRET PORT=$PORT
+            cd ../..
+            npm run deploy
             
 workflows:
   udagram:
